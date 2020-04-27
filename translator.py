@@ -1,8 +1,9 @@
 import json
-from pathlib import Path
 from difflib import get_close_matches
 
+
 data = json.load(open("data.json"))
+
 
 def translator(w):
     w = w.lower()
